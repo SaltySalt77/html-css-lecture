@@ -7,10 +7,13 @@
 		<title>Document</title>
 		<style>
 			#learn_list {
-				background-color: cyan;
+				background-color: lightgray;
 			}
 			.title {
-				color: lightgray;
+				color: cyan;
+			}
+			#sign_in {
+				background-color: lightyellow;
 			}
 		</style>
 	</head>
@@ -23,6 +26,7 @@
 				<li><a href="#add_image">add image</a></li>
 				<li><a href="#add_video">add video</a></li>
 				<li><a href="#add_audio">add audio</a></li>
+				<li><a href="#sign_in">sign in examples</a></li>
 			</ul>
 		</div>
 		<!-- 리스트 -->
@@ -47,8 +51,46 @@
 		<!-- 오디오 -->
 		<h2 id="add_audio">add audio</h2>
 		<audio controls src="./video/sample.mp4"></audio>
+		<br/>
+		<!-- 회원 가입 예제(input, label, form) -->
+		<div id="sign_in">
+			<br/>
+			<h2>sign in examples<h2>
+			<form>
+				<!-- 이름 -->
+				<input id="name" type="text" placeholder="name" />
+				<label for="name">name</label>
+				<br/>
+				<!-- 이메일 -->
+				<input id="email" type="email" placeholder="email" />
+				<label for="email">email</label>
+				<br/>
+				<!-- 비밀번호 -->
+				<input id="password" type="password" placeholder="password" />
+				<label for="password">password</label>
+				<br/>
+				<!-- 성별 -->
+				<input id="male" type="radio" name="gender" />
+				<label for="male">male</label>
+				<input id="female" type="radio" name="gender" />
+				<label for="female">female</label>
+				<br/>
+				<!-- 사용 언어 -->
+				<input id="kor" type="checkbox" name="lang" />
+				<label for="kor">Korean</label>
+				<input id="eng" type="checkbox" name="lang" />
+				<label for="eng">English</label>
+				<input id="span" type="checkbox" name="lang" />
+				<label for="span">Spanish</label>
+				<br/>
+				<!-- 회원가입 버튼(폼으로 전송) -->
+				<input type="submit" value="sign in" />
+				<br/>
+			</form>
+			<br/>
+		</div>
 		<!-- 블로그 링크 -->
-		<br/><a href="https://saltysalt77.github.io" target="_blank">hyna blog</a><br/>
+		<a href="https://saltysalt77.github.io" target="_blank">hyna blog</a><br/>
 		<!-- 맨 위로 가기 -->
 		<a href="#top">go to top</a>
 	</body>
