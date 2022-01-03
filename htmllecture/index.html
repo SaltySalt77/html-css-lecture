@@ -19,79 +19,87 @@
 	</head>
 	<body>
 		<div id="learn_list">
-			<h1 class="title">What I learnd</h1>
-			<ul>
-				<li><a href="#ol_tag">ordered list</a></li>
-				<li><a href="#ul_tag">unordered list</a></li>
-				<li><a href="#add_image">add image</a></li>
-				<li><a href="#add_video">add video</a></li>
-				<li><a href="#add_audio">add audio</a></li>
-				<li><a href="#sign_in">sign in examples</a></li>
-			</ul>
+			<header>
+				<h1 class="title">What I learnd</h1>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="#ol_tag">ordered list</a></li>
+					<li><a href="#ul_tag">unordered list</a></li>
+					<li><a href="#add_image">add image</a></li>
+					<li><a href="#add_video">add video</a></li>
+					<li><a href="#add_audio">add audio</a></li>
+					<li><a href="#sign_in">sign in examples</a></li>
+				</ul>
+			</nav>
 		</div>
-		<!-- 리스트 -->
-		<h2 id="ol_tag">ordered list</h2>
-		<ol>
-			<li>first one</li>
-			<li>second one</li>
-		</ol>
-		<h2 id="ul_tag">unordered list</h2>
+		<article>
+			<!-- 리스트 -->
+			<h2 id="ol_tag">ordered list</h2>
+			<ol>
+				<li>first one</li>
+				<li>second one</li>
+			</ol>
+			<h2 id="ul_tag">unordered list</h2>
 
-		<ul>
-			<li>first one</li>
-			<li>second one</li>
-		</ul>
-		<!-- 이미지-->
-		<h2>add image</h2>
-		<img id="add_image" width="500px" src="./img/cat" alt="image with cat">
-		<!-- 비디오 -->
-		<h2 id="add_video">add video</h2>
-		<video controls width="500px" src="./video/sample.mp4"></video>
-		<br/>
-		<!-- 오디오 -->
-		<h2 id="add_audio">add audio</h2>
-		<audio controls src="./video/sample.mp4"></audio>
-		<br/>
-		<!-- 회원 가입 예제(input, label, form) -->
-		<div id="sign_in">
+			<ul>
+				<li>first one</li>
+				<li>second one</li>
+			</ul>
+			<!-- 이미지-->
+			<h2>add image</h2>
+			<img id="add_image" width="500px" src="./img/cat" alt="image with cat">
+			<!-- 비디오 -->
+			<h2 id="add_video">add video</h2>
+			<video controls width="500px" src="./video/sample.mp4"></video>
 			<br/>
-			<h2>sign in examples<h2>
-			<form>
-				<!-- 이름 -->
-				<input id="name" type="text" placeholder="name" />
-				<label for="name">name</label>
-				<br/>
-				<!-- 이메일 -->
-				<input id="email" type="email" placeholder="email" />
-				<label for="email">email</label>
-				<br/>
-				<!-- 비밀번호 -->
-				<input id="password" type="password" placeholder="password" />
-				<label for="password">password</label>
-				<br/>
-				<!-- 성별 -->
-				<input id="male" type="radio" name="gender" />
-				<label for="male">male</label>
-				<input id="female" type="radio" name="gender" />
-				<label for="female">female</label>
-				<br/>
-				<!-- 사용 언어 -->
-				<input id="kor" type="checkbox" name="lang" />
-				<label for="kor">Korean</label>
-				<input id="eng" type="checkbox" name="lang" />
-				<label for="eng">English</label>
-				<input id="span" type="checkbox" name="lang" />
-				<label for="span">Spanish</label>
-				<br/>
-				<!-- 회원가입 버튼(폼으로 전송) -->
-				<input type="submit" value="sign in" />
-				<br/>
-			</form>
+			<!-- 오디오 -->
+			<h2 id="add_audio">add audio</h2>
+			<audio controls src="./video/sample.mp4"></audio>
 			<br/>
-		</div>
-		<!-- 블로그 링크 -->
-		<a href="https://saltysalt77.github.io" target="_blank">hyna blog</a><br/>
+			<!-- 회원 가입 예제(input, label, form) -->
+			<div id="sign_in">
+				<br/>
+				<h2>sign in examples</h2>
+				<form>
+					<!-- 이름 -->
+					<input id="name" type="text" placeholder="name" />
+					<label for="name">name</label>
+					<br/>
+					<!-- 이메일 -->
+					<input id="email" type="email" placeholder="email" />
+					<label for="email">email</label>
+					<br/>
+					<!-- 비밀번호 -->
+					<input id="password" type="password" placeholder="password" />
+					<label for="password">password</label>
+					<br/>
+					<!-- 성별 -->
+					<input id="male" type="radio" name="gender" />
+					<label for="male">male</label>
+					<input id="female" type="radio" name="gender" />
+					<label for="female">female</label>
+					<br/>
+					<!-- 사용 언어 -->
+					<input id="kor" type="checkbox" name="lang" />
+					<label for="kor">Korean</label>
+					<input id="eng" type="checkbox" name="lang" />
+					<label for="eng">English</label>
+					<input id="span" type="checkbox" name="lang" />
+					<label for="span">Spanish</label>
+					<br/>
+					<!-- 회원가입 버튼(폼으로 전송) -->
+					<input type="submit" value="sign in" />
+					<br/>
+				</form>
+				<br/>
+			</div>
+			<!-- 블로그 링크 -->
+			<a href="https://saltysalt77.github.io" target="_blank">hyna blog</a><br/>
+		</article>
 		<!-- 맨 위로 가기 -->
-		<a href="#top">go to top</a>
+		<footer>
+			<a href="#top">go to top</a>
+		</footer>
 	</body>
 </html>
